@@ -1,5 +1,5 @@
 var playerOne = prompt("Player 1: Choose a number between 1 and 6.");
-if ((playerOne < 1) || (playerOne > 6) || isNaN(playerOne)) { //NaN means "Not a Number"//
+if ((playerOne < 1) || (playerOne > 6) || (isNaN(playerOne))) { //NaN means "Not a Number"//
 	window.alert("Invalid entry");
 }
 else {
